@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VideoGames</title>
+
+    <link rel="stylesheet" href="vendor/css/jquery.mobile-1.4.5.min.css"/>
+    <script src="vendor/js/jquery-2.1.4.min.js"></script>
+    <script src="vendor/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+    <section data-role="page" data-theme="b">
+        <header data-role="header" data-position="fixed">
+            <h2>External Page 2</h2>
+        </header>
+
+        <div data-role="content">
+            <img src="img/upcoming-video-game-rumors.jpg" alt="" width="100%" height="100%"/>
+        </div>
+
+        <div data-role="content">
+            <form class="ui-filterable">
+                <input id="autocomplete" data-type="search" placeholder="Search...">
+            </form>
+
+            <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search..."
+                data-filter-reveal="false" data-input="#autocomplete">
+                <li data-role="list-divider">Sports</li>
+                <li data-icon="delete"><a href="">Basquetball <span class="ui-li-count">10</span></a></li>
+                <li data-icon="gear"><a href="">Baseball <span class="ui-li-count">15</span></a></li>
+                <li data-icon="info"><a href="">Soccer <span class="ui-li-count">17</span></a></li>
+                <li data-icon="arrow-u"><a href="">Tennis <span class="ui-li-count">8</span></a></li>
+                <li data-icon="arrow-d"><a href="">Football <span class="ui-li-count">6</span></a></li>
+                <li data-icon="arrow-r"><a href="">Golf <span class="ui-li-count">22</span></a></li>
+                <li data-role="list-divider">Hobbies</li>
+                <li data-icon="plus"><a href="">Movie <span class="ui-li-count">30</span></a></li>
+                <li data-icon="minus"><a href="">Video Games <span class="ui-li-count">100</span></a></li>
+            </ul>
+        </div>
+        <footer data-role="footer" data-position="fixed">
+            <details>
+                <summary> &copy; Copyright VideoGames - Desarrollo de Aplicaciones Móviles Multiplataforma, 2015 </summary>
+                <p>Todo el contenido y gráficos de este sitio web son
+                    propiedad de la compañía.</p>
+            </details>
+        </footer>
+    </section>
+
+</body>
+</html>
